@@ -1,0 +1,7 @@
+
+
+winrm quickconfig      # check winRM is ok for WAC connect
+
+            # add rules to in/out to firewall or VM to connect via WAC
+5985: HTTP 
+5986: HTTPS 
